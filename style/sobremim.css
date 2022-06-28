@@ -1,0 +1,98 @@
+.home{
+    max-width: 1200px;
+    min-height: 100vh;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.25fr 2fr;
+    gap: 100px;
+    align-items: center;
+    margin-top: -30px
+}
+
+.home h1{
+    font-size: 4.8rem;
+    line-height: 1.25;
+    position: relative;
+}
+
+
+
+.home p{
+    position: relative;
+    left: 35px;
+    font-size: 1.5rem;
+}
+
+.home p::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    background: url(../img/gpsIcon.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -40px;
+}
+
+.h1-gradient{
+    background: -webkit-linear-gradient(left,#5b5bf1, #0d031d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+
+}
+/* #180636 #3d3dff */
+@media(max-width: 1000px){
+    .main-home{
+        padding-top: 0px;
+    }
+    .home h1{
+        font-size: 3rem;  
+    }
+        .home p {
+            top: 10px;
+            font-size: 1rem;
+        }
+}
+@media(max-width: 900px){
+    .home{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        min-height: 100vh;
+    }
+    .introducao h1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 460px){
+    .home{
+        grid-template-columns: 1fr;
+    }
+    .home h1{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .home p{
+        text-align: center;
+        font-size: 1.5rem;
+        left: 18px;
+    }
+    .home img{
+        display: none;
+    }
+    .home p::before{
+        left: 15px;
+    }
+}
+
+@media(max-width:440px){
+    .home p{
+        left: auto;
+    }
+    .home p::before{
+        display: none;
+    }
+}
