@@ -9,11 +9,32 @@
 }
 
 .footer-texto{
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     line-height: 1.25;
-    font-weight: 400;
-    text-align:end ;
+    font-weight: 700;
+    text-align:end;
+    color: #3d3dff;
 }
+
+.footer-texto-subtitulo{
+    font-size: 1.75rem;
+    color: #180636;
+    font-weight: 400;
+}
+.footer-texto-periodo {
+    font-size: 1.5rem;
+    color: #180636;
+    font-weight: 400;
+}
+.footer-texto-texto{
+    font-size: 1.25rem;
+    
+    color: #180636;
+    font-weight: 400;
+} 
+
+
+
 .footer-texto-link{
     text-decoration: none;
     color: #3d3dff;
