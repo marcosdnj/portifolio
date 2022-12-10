@@ -28,7 +28,6 @@
 }
 .footer-texto-texto{
     font-size: 1.25rem;
-    
     color: #180636;
     font-weight: 400;
 } 
@@ -38,6 +37,7 @@
 .footer-texto-link{
     text-decoration: none;
     color: #3d3dff;
+    font-size: 1rem;
 }
 
 .footer-container li{
