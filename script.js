@@ -14,3 +14,19 @@ function animaScroll(){
 animaScroll();
 
 window.addEventListener('scroll', animaScroll);
+//////////////////////////////////////////////
+
+
+
+let experienciaEContato = document.getElementById('experiencia-contato')
+let contatoHide = document.getElementById('experiencia-contato-function')
+let windowUserWidth = window.innerWidth
+
+
+function changeExEContato(){
+    if(windowUserWidth<=900){
+        experienciaEContato.innerText = 'Experiência'
+        contatoHide.classList.toggle('hidden')
+    }     
+}
+changeExEContato()

@@ -2,7 +2,7 @@
 
     max-width: 1200px;
     min-height: 50vh;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
@@ -60,6 +60,24 @@
     background: #180636;
     text-align: center;
 }
+
+.experiencia-contato{
+    color: #e0e0e0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hidden { 
+    display: none;
+}
+.experiencia-contato-function {
+    margin-top: 80px;
+    color: #e0e0e0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
 
 @media(max-width: 850px){
     .footer-container{
