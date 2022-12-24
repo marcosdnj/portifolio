@@ -23,10 +23,20 @@ let contatoHide = document.getElementById('experiencia-contato-function')
 let windowUserWidth = window.innerWidth
 
 
+
+window.addEventListener('resize', changeExEContato);
+
+
+
 function changeExEContato(){
-    if(windowUserWidth<=900){
+    console.log(window.innerWidth)
+    if(windowUserWidth<850){
         experienciaEContato.innerText = 'Experiência'
         contatoHide.classList.toggle('hidden')
-    }     
+    }
+    else{
+        experienciaEContato.innerText = 'Experiência & Contato'
+        contatoHide.classList.toggle('hidden')
+    }
 }
-changeExEContato()
+window.addEventListener('resize', changeExEContato);
