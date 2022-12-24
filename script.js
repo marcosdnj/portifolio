@@ -38,4 +38,5 @@ function changeExEContato(){
         contatoHide.classList.toggle('hidden')
     }
 }
+changeExEContato()
 window.addEventListener('resize', changeExEContato);
