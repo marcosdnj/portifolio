@@ -35,7 +35,6 @@ function changeExEContato(){
         contatoHide.classList.toggle('hidden')
     }
     else{
-        experienciaEContato.innerText = 'Experiência & Contato'
         contatoHide.classList.toggle('hidden')
     }
 }
