@@ -29,14 +29,10 @@ window.addEventListener('resize', changeExEContato);
 
 
 function changeExEContato(){
-    console.log(window.innerWidth)
-    if(windowUserWidth<850){
-        experienciaEContato.innerText = 'Experiência'
+    if(window.innerWidth>850)
         contatoHide.classList.toggle('hidden')
-    }
-    else{
-        contatoHide.classList.toggle('hidden')
-    }
+    else
+        experienciaEContato.innerText = 'Experiência'  
 }
-changeExEContato()
-window.addEventListener('resize', changeExEContato);
+ changeExEContato()
+ window.addEventListener('onload', changeExEContato);
