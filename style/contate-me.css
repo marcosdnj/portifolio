@@ -1,0 +1,90 @@
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.floating-button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* CSS DA PÁGINA PARA ENVIAR INFORMAÇÕES */
+
+.contato-form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 5%; /* Adicione um espaçamento do topo */
+    margin-bottom: 5%; 
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    resize: none; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.success-message {
+    color: #FF5733; /* Vermelho */
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    border: 1px solid #FF5733; /* Adiciona uma borda vermelha */
+    padding: 10px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+}

@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Marcos Delfim - Formação Complementar</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="./img/logo.svg" alt="logo Marcos Delfim"></a>
+    
+        <nav>
+            <ul class="header-menu">
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index.html#formacao">Formação</a></li>
+                <li><a href="formacaoComplementar.html">Certificados</a></li>
+                <li><a href="index.html#projetos">Projetos</a></li>
+                <li><a href="#contato">Experiência</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p class="success-message hidden">Mensagem enviada com sucesso!</p>
+    <section class="send-email-for-contact">
+        <div class="contato-form">
+            <h1>Entre em Contato</h1>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" maxlength="200" required></textarea>
+                    <span class="character-count">0/300</span>
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <script src="scriptforcontact.js"></script>
+    </section>
+
+
+
+    <footer class="footer js-scroll" id="contato">
+        <h2 class="experiencia-contato" id="experiencia-contato">Experiência & Contato</h2>
+        <div class="footer-container">
+            <!-- <p class="footer-texto">
+                    No momento me encontro em busca de uma oportunidade para inserção no mercado de desenvolvimento. Você pode baixar meu curriculo por <a class="footer-texto-link" href="./Download/Curriculo.pdf" download="./Download/Curriculo.pdf">aqui</a> ou entrar em contato comigo.
+                </p> -->
+    
+    
+            <p class="footer-texto">
+                Bradesco Seguros
+                <br><a class="footer-texto-subtitulo">Suporte a Sistemas - Estágio</a>
+                <br><a class="footer-texto-periodo">2022 - até o momento</a>
+                <br><a class="footer-texto-texto">Prestando suporte aos sistemas e a infraestrutura da seguradora,
+                    utilizando as ferramentas mais modernas de análise e de atuação do mercado.</a>
+                <br><a class="footer-texto-link" href="./Download/Curriculo-novo.pdf"
+                    download="./Download/Curriculo-novo.pdf">Baixar curriculo</a>
+            </p>
+    
+            <h2 class="experiencia-contato-function" id="experiencia-contato-function">Contato</h2>
+            <ul class="footer-contato">
+                <li>marcosdnj99@gmail.com</li>
+                <li>+55 21 979225148</li>
+                <li><a href="https://www.linkedin.com/in/marcos-delfim/">Linkedin</a></li>
+            </ul>
+        </div>
+        <p class="footer-copy">Todos os direitos reservados. <br>
+            Feito com ❤️
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
