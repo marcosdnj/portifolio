@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             mensagem: mensagem
         };
         fetch('https://contatemeapiportifolio.azurewebsites.net/api/PostEmail?code=cG9zdGVtYWls', {
-
+        //teste
         //fetch('http://localhost:7164/api/PostEmail', {
             method: 'POST',
             headers: {
