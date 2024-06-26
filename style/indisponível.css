@@ -1,0 +1,12 @@
+
+
+.message {
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -10,10 +10,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     z-index: 99999;
-    
+    text-decoration:none
 }
 
-.floating-button a {
+.floating-button p {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -33,6 +33,7 @@
     text-align: left;
     margin-top: 5%; /* Adicione um espaçamento do topo */
     margin-bottom: 5%; 
+    
 }
 
 h1 {
