@@ -1,10 +1,11 @@
 @import url(./global.css);
 @import url(./header.css);
-@import url(./sobremim.css);
+@import url(./perfil.css);
 @import url(./formacao.css);
-@import url(./projetos.css);
+@import url(./sobremim.css);
 @import url(./footer.css);
 @import url(./formacaoComplementas.css);
 @import url(./js.css);
 @import url(./contate-me.css);
-@import url(indisponível.css);
+@import url(./indisponível.css);
+@import url(./experiencia.css);
